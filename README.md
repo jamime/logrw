@@ -27,7 +27,7 @@ var logrw = new (require('logrw'))(true);
      * RFC 5424 Severity Level 0
      * Emergency: system is unusable
      *
-     * @param {...*} message - The message to display
+     * @param {...*} arguments - The message to display
      */
      
 ### `logrw.alert(args...)`
@@ -37,7 +37,7 @@ var logrw = new (require('logrw'))(true);
      * RFC 5424 Severity Level 1
      * Alert: action must be taken immediately
      *
-     * @param {...*} message - The message to display
+     * @param {...*} arguments - The message to display
      */
 
 ### `logrw.critical(args...)`
@@ -47,7 +47,7 @@ var logrw = new (require('logrw'))(true);
      * RFC 5424 Severity Level 2
      * Critical: critical conditions
      *
-     * @param {...*} message - The message to display
+     * @param {...*} arguments - The message to display
      */
      
 ### `logrw.error(args...)`
@@ -57,7 +57,7 @@ var logrw = new (require('logrw'))(true);
      * RFC 5424 Severity Level 3
      * Error: error conditions
      *
-     * @param {...*} message - The message to display
+     * @param {...*} arguments - The message to display
      */
      
 ### `logrw.warning(args...)` `logrw.warn(args...)`
@@ -67,7 +67,7 @@ var logrw = new (require('logrw'))(true);
      * RFC 5424 Severity Level 4
      * Warning: warning conditions
      *
-     * @param {...*} message - The message to display
+     * @param {...*} arguments - The message to display
      */
 ### `logrw.notice(args...)` `logrw.ok(args...)`
     /**
@@ -76,7 +76,7 @@ var logrw = new (require('logrw'))(true);
      * RFC 5424 Severity Level 5
      * Notice: normal but significant condition
      *
-     * @param {...*} message - The message to display
+     * @param {...*} arguments - The message to display
      */
 ### `logrw.informational(args...)` `logrw.info(args...)`
     /**
@@ -85,7 +85,7 @@ var logrw = new (require('logrw'))(true);
      * RFC 5424 Severity Level 6
      * Informational: informational messages
      *
-     * @param {...*} message - The message to display
+     * @param {...*} arguments - The message to display
      */
 ### `logrw.debug(args...)`
     /**
@@ -94,7 +94,7 @@ var logrw = new (require('logrw'))(true);
      * RFC 5424 Severity Level 7
      * Debug: debug-level messages
      *
-     * @param {...*} message - The message to display
+     * @param {...*} arguments - The message to display
      */
 
 ### `logrw.update()` `logrw.rw()`
