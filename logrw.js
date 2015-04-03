@@ -51,12 +51,12 @@ Logrw.prototype._print = function (prefix, args) {
     var finalMessages = [];
     var messages = Array.prototype.slice.call(args);
 
-    messages.forEach(function () {
+    messages.forEach(function (message) {
         if (typeof message === 'string') {
-            finalMessages.push();
+            finalMessages.push(message);
             return;
         }
-        finalMessages.push(util.inspect());
+        finalMessages.push(util.inspect(message));
     });
 
     if (this.showTime) {
