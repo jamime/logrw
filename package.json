@@ -1,6 +1,6 @@
 {
   "name": "logrw",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "A colourful and updatable logger that implements the levels defined in RFC-5424.",
   "main": "logrw.js",
   "dependencies": {
