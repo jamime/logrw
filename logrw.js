@@ -24,7 +24,7 @@ var getTimeString = function () {
         date.getHours(),
         lpad(date.getMinutes()),
         lpad(date.getSeconds())].join(':');
-    return chalk.grey('[' + dateString + ']');
+    return chalk.grey(chalk.white('[') + dateString + chalk.white(']'));
 };
 
 /**
